@@ -1,0 +1,7 @@
+City Dimension File at below Link:
+
+https://prescpipeline1.blob.core.windows.net/city/us_cities_dimension.parquet?sp=r&st=2022-11-22T07:36:34Z&se=2023-11-22T15:36:34Z&spr=https&sv=2021-06-08&sr=b&sig=tP4sJK0K5VUafSL2mRz%2FdRl5nTncAByT4PkgxHgA6ck%3D
+
+Prescriber Fact File at below Link:
+
+https://prescpipeline1.blob.core.windows.net/presc/USA_Presc_Medicare_Data_12021.rar?sp=r&st=2022-11-22T07:35:42Z&se=2023-11-22T15:35:42Z&spr=https&sv=2021-06-08&sr=b&sig=zjuENMG4Pf9fZ5bwgmjg2JhAzwcF4poHznhFxayqY%2Fg%3D
