@@ -14,7 +14,7 @@
 ### Data transform
 1. Creation of reports based on requirements.  
 &emsp; 1.1 Prescribers report requirements:  
-&emsp;&emsp; Top 5 Prescribers with highest trx_cnt per each state.  
+&emsp;&emsp;&nbsp; Top 5 Prescribers with highest trx_cnt per each state.  
 &emsp;&emsp; Consider the prescribers only from 20 to 50 years of experience.  
 &emsp;&emsp; Table Model:  
 &emsp;&emsp;&emsp;&emsp; Prescriber ID  
