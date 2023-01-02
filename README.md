@@ -13,32 +13,33 @@
 
 ### Data transform
 1. Creation of reports based on requirements.  
-&emsp; 1.1 Prescribers report requirements:  
-&emsp;&emsp;&nbsp;&nbsp; Top 5 Prescribers with highest trx_cnt per each state.  
-&emsp;&emsp;&nbsp;&nbsp; Consider the prescribers only from 20 to 50 years of experience.  
-&emsp;&emsp;&nbsp;&nbsp; Table Model:  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber ID  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Full Name  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber State  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Country  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Years of Experience  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total TRX Count  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Days Supply  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Drug Cost  
 
-&emsp;&emsp;&nbsp;&nbsp; 1.2 Cities report requirements:  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Calculate the Number of zips in each city.  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Calculate the number of distinct Prescribers assigned for each City.  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Calculate total TRX_CNT prescribed for each city.  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Do not report a city in the final report if no prescriber is assigned to it.  
-&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Table Model:  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; City Name  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; State Name  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; County Name  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; City Population  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Number of Zips  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Counts  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Trx counts  
+1.1 Prescribers report requirements:  
+Top 5 Prescribers with highest trx_cnt per each state.  
+Consider the prescribers only from 20 to 50 years of experience.  
+Table Model:  
+Prescriber ID  
+Prescriber Full Name  
+Prescriber State  
+Prescriber Country  
+Prescriber Years of Experience  
+Total TRX Count  
+Total Days Supply  
+Total Drug Cost  
+
+1.2 Cities report requirements:  
+Calculate the Number of zips in each city.  
+Calculate the number of distinct Prescribers assigned for each City.  
+Calculate total TRX_CNT prescribed for each city.  
+Do not report a city in the final report if no prescriber is assigned to it.  
+Table Model:  
+City Name  
+State Name  
+County Name  
+City Population  
+Number of Zips  
+Prescriber Counts  
+Total Trx counts  
 
 ### Data load
 1. Load transformed data to HDFS for optimization for further reading and/or transformations.  
