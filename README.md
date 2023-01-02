@@ -15,17 +15,17 @@
 1. Creation of reports based on requirements.  
 
 &emsp; &emsp; 1.1 Prescribers report requirements:  
-Top 5 Prescribers with highest trx_cnt per each state.  
-Consider the prescribers only from 20 to 50 years of experience.  
-Table Model:  
-Prescriber ID  
-Prescriber Full Name  
-Prescriber State  
-Prescriber Country  
-Prescriber Years of Experience  
-Total TRX Count  
-Total Days Supply  
-Total Drug Cost  
+&emsp; &emsp; &emsp; &emsp; Top 5 Prescribers with highest trx_cnt per each state.  
+&emsp; &emsp; &emsp; &emsp; Consider the prescribers only from 20 to 50 years of experience.  
+&emsp; &emsp; &emsp; &emsp; Table Model:  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Prescriber ID  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Prescriber Full Name  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Prescriber State  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Prescriber Country  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Prescriber Years of Experience  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Total TRX Count  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Total Days Supply  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Total Drug Cost  
 
 &emspemsp; 1.2 Cities report requirements:  
 Calculate the Number of zips in each city.  
