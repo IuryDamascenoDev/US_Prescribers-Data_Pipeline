@@ -26,19 +26,19 @@
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Days Supply  
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Drug Cost  
 
-1.2 Cities report requirements:  
-    Calculate the Number of zips in each city.  
-    Calculate the number of distinct Prescribers assigned for each City.  
-    Calculate total TRX_CNT prescribed for each city.  
-    Do not report a city in the final report if no prescriber is assigned to it.  
-    Table Model:  
-       City Name  
-       State Name  
-       County Name  
-       City Population  
-       Number of Zips  
-       Prescriber Counts  
-       Total Trx counts  
+&emsp;&emsp; 1.2 Cities report requirements:  
+&emsp;&emsp;&nbsp;&nbsp; Calculate the Number of zips in each city.  
+&emsp;&emsp;&nbsp;&nbsp; Calculate the number of distinct Prescribers assigned for each City.  
+&emsp;&emsp;&nbsp;&nbsp; Calculate total TRX_CNT prescribed for each city.  
+&emsp;&emsp;&nbsp;&nbsp; Do not report a city in the final report if no prescriber is assigned to it.  
+&emsp;&emsp;&nbsp;&nbsp; Table Model:  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; City Name  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; State Name  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; County Name  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; City Population  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Number of Zips  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Counts  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Trx counts  
 
 ### Data load
 1. Load transformed data to HDFS for optimization for further reading and/or transformations.  
