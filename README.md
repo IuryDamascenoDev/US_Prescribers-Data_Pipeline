@@ -14,7 +14,7 @@
 ### Data transform
 1. Creation of reports based on requirements.  
 
-\t 1.1 Prescribers report requirements:  
+&emspemsp; 1.1 Prescribers report requirements:  
 Top 5 Prescribers with highest trx_cnt per each state.  
 Consider the prescribers only from 20 to 50 years of experience.  
 Table Model:  
@@ -27,7 +27,7 @@ Total TRX Count
 Total Days Supply  
 Total Drug Cost  
 
-\t 1.2 Cities report requirements:  
+&emspemsp; 1.2 Cities report requirements:  
 Calculate the Number of zips in each city.  
 Calculate the number of distinct Prescribers assigned for each City.  
 Calculate total TRX_CNT prescribed for each city.  
