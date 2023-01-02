@@ -13,18 +13,18 @@
 
 ### Data transform
 1. Creation of reports based on requirements.  
-1.1 Prescribers report requirements:  
-&emsp;Top 5 Prescribers with highest trx_cnt per each state.  
-*Tabspace* Consider the prescribers only from 20 to 50 years of experience.  
-*Tabspace* Table Model:  
-*Tabspace* *Tabspace* Prescriber ID  
-*Tabspace* *Tabspace* Prescriber Full Name  
-*Tabspace* *Tabspace* Prescriber State  
-*Tabspace* *Tabspace* Prescriber Country  
-*Tabspace* *Tabspace* Prescriber Years of Experience  
-*Tabspace* *Tabspace* Total TRX Count  
-*Tabspace* *Tabspace* Total Days Supply  
-*Tabspace* *Tabspace* Total Drug Cost  
+&emsp; 1.1 Prescribers report requirements:  
+&emsp;&emsp; Top 5 Prescribers with highest trx_cnt per each state.  
+&emsp;&emsp; Consider the prescribers only from 20 to 50 years of experience.  
+&emsp;&emsp; Table Model:  
+&emsp;&emsp;&emsp;&emsp; Prescriber ID  
+&emsp;&emsp;&emsp;&emsp; Prescriber Full Name  
+&emsp;&emsp;&emsp;&emsp; Prescriber State  
+&emsp;&emsp;&emsp;&emsp; Prescriber Country  
+&emsp;&emsp;&emsp;&emsp; Prescriber Years of Experience  
+&emsp;&emsp;&emsp;&emsp; Total TRX Count  
+&emsp;&emsp;&emsp;&emsp; Total Days Supply  
+&emsp;&emsp;&emsp;&emsp; Total Drug Cost  
 
 1.2 Cities report requirements:  
     Calculate the Number of zips in each city.  
