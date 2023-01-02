@@ -26,7 +26,7 @@
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Days Supply  
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Drug Cost  
 
-&emsp;&emsp; 1.2 Cities report requirements:  
+&emsp;&emsp;&nbsp;&nbsp; 1.2 Cities report requirements:  
 &emsp;&emsp;&nbsp;&nbsp; Calculate the Number of zips in each city.  
 &emsp;&emsp;&nbsp;&nbsp; Calculate the number of distinct Prescribers assigned for each City.  
 &emsp;&emsp;&nbsp;&nbsp; Calculate total TRX_CNT prescribed for each city.  
