@@ -14,17 +14,17 @@
 ### Data transform
 1. Creation of reports based on requirements.  
 &emsp; 1.1 Prescribers report requirements:  
-&emsp;&emsp;&nbsp; Top 5 Prescribers with highest trx_cnt per each state.  
-&emsp;&emsp; Consider the prescribers only from 20 to 50 years of experience.  
-&emsp;&emsp; Table Model:  
-&emsp;&emsp;&emsp;&emsp; Prescriber ID  
-&emsp;&emsp;&emsp;&emsp; Prescriber Full Name  
-&emsp;&emsp;&emsp;&emsp; Prescriber State  
-&emsp;&emsp;&emsp;&emsp; Prescriber Country  
-&emsp;&emsp;&emsp;&emsp; Prescriber Years of Experience  
-&emsp;&emsp;&emsp;&emsp; Total TRX Count  
-&emsp;&emsp;&emsp;&emsp; Total Days Supply  
-&emsp;&emsp;&emsp;&emsp; Total Drug Cost  
+&emsp;&emsp;&nbsp;&nbsp; Top 5 Prescribers with highest trx_cnt per each state.  
+&emsp;&emsp;&nbsp;&nbsp; Consider the prescribers only from 20 to 50 years of experience.  
+&emsp;&emsp;&nbsp;&nbsp; Table Model:  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber ID  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Full Name  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber State  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Country  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Prescriber Years of Experience  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total TRX Count  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Days Supply  
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Total Drug Cost  
 
 1.2 Cities report requirements:  
     Calculate the Number of zips in each city.  
